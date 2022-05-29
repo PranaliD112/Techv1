@@ -5,6 +5,6 @@
 
   tasks:
     - name: build image
-      command: docker build -t pranali/image1:1.1 /pranali
+      command: docker build -t pranali/image1:1.1 .
     - name: run container
       command: docker run -d -p 8070:8080 pranali/image1:1.1
